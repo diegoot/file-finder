@@ -1,0 +1,16 @@
+.listMainContent {
+  .pagination {
+    list-style-type: none;
+  }
+
+  &-page {
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .listMainContent {
+    flex: 2;
+  }
+}

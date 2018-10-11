@@ -1,0 +1,18 @@
+// List actions
+export const GET_TAGS_REQUEST = 'GET_TAGS_REQUEST';
+export const GET_TAGS_SUCCESS = 'GET_TAGS_SUCCESS';
+export const GET_TAGS_ERROR = 'GET_TAGS_ERROR';
+
+export const GET_PAGE_REQUEST = 'GET_PAGE_REQUEST';
+export const GET_PAGE_SUCCESS = 'GET_PAGE_SUCCESS';
+export const GET_PAGE_ERROR = 'GET_PAGE_ERROR';
+
+export const SET_SELECTED_FILE = 'SET_SELECTED_FILE';
+
+// Rename actions
+
+export const RENAME_FILE_REQUEST = 'RENAME_FILE_REQUEST';
+export const RENAME_FILE_SUCCESS = 'RENAME_FILE_SUCCESS';
+export const RENAME_FILE_ERROR = 'RENAME_FILE_ERROR';
+
+export const RESET_RENAME = 'RESET_RENAME';
