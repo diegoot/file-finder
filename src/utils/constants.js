@@ -1,0 +1,4 @@
+export const MOBILE_BREAKPOINT = 768;
+
+export const PAGE_RANGE_DISPLAYED = 4;
+export const PAGE_RANGE_DISPLAYED_MOBILE = 1;

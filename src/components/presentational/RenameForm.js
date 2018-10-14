@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import './RenameForm.css';
 
 class RenameForm extends React.Component {
   constructor(props) {
@@ -36,16 +38,26 @@ class RenameForm extends React.Component {
     if (!file) return null;
 
     return (
-      <form onSubmit={this.onSubmit}>
-        <label htmlFor="name">Name: </label>
-        <input id="name" type="text" onChange={this.onChange} value={newName} />
-        <button type="submit">Rename</button>
-        {isError && <p>Name cannot be empty</p>}
-        {renamed && <p>File was renamed</p>}
+      <div className="rename">
+
+        <Form inline onSubmit={this.onSubmit}>
+          <FormGroup row>
+            <Label for="name">Name: </Label>
+            <Input type="text" id="name" onChange={this.onChange} value={newName} />
+            <Button>Submit</Button>
+          </FormGroup>
+        </Form>
+
+        <div className="rename-messages">
+          {isError && <p>Name cannot be empty</p>}
+          {renamed && <p>File was renamed</p>}
+        </div>
+
         <div>
           <Link to="/">Home</Link>
         </div>
-      </form>
+
+      </div>
     );
   }
 }
