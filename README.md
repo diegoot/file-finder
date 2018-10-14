@@ -50,3 +50,9 @@ NOTE: you might need to reload the page if you see no content. For some reason t
 3. yarn build
 4. Deploy the app to your server of choise. For instance if you are using npm 5.2+ you could do: cd build && npx serve
 5. Go to http://localhost:5000 on your browser
+
+# Online demo
+
+master -> [http://verdant-stew.surge.sh](http://verdant-stew.surge.sh)
+
+styled -> [http://cuddly-pan.surge.sh](http://cuddly-pan.surge.sh)
