@@ -2,6 +2,8 @@
 
 This project is a small web application that let the user search for files that are group in tags. It also includes pagination of the files under a given tag and the posibility to rename those files.
 
+#### IMPORTANT: This is the output of an interview test. This might need improvements and/or have incomplete features given the time I had to do it
+
 # Technologies in use
 
 This is a ReactJS based project, it was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
